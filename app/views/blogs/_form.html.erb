@@ -1,0 +1,6 @@
+<%= form_with model: @blog, local: true do |f| %>
+  <%= f.text_field :title, class: "form-control" %>
+  <br>
+  <%= f.text_area :content, class: "form-control"  %>
+  <%= f.submit class: "btn btn-outline-primary mt-3" %>
+<% end %>
